@@ -1,0 +1,349 @@
+/*顶部开始*/
+body{
+    width: 7.5rem;
+}
+#header{
+    width: 100%;
+    height:1.3rem;
+    position: relative;
+}
+#header-up{
+    width: 100%;
+    height: 1.3rem;
+    background: #ffb20c;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#header-up-top{
+    width: 100%;
+    height: 0.4rem;
+    background-color: #1d1928;
+    opacity: 0.1;
+}
+#header-up-item{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-between;
+}
+#header-up-item img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.29rem 0.235rem;
+}
+#header-up-item p{
+    width: 3rem;
+    height: 0.26rem;
+    font-size: 0.3rem;
+    line-height: 0.26rem;
+    text-align: center;
+    margin-top: 0.42rem;
+    color: #ffffff;
+}
+/*顶部结束*/
+/*订单*/
+#order{
+    width: 7.5rem;
+    height: 3.5rem;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+#order-top{
+     width: 7.02rem;
+     height: 1.75rem;
+    position: relative;
+ }
+#order-top-bd{
+    width: 7.02rem;
+    height: 1.44rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px 0px
+    rgba(255, 178, 12, 0.22);
+    border-radius: 0.1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.24rem;
+}
+#order-bottom{
+    width: 7.02rem;
+    height: 1.75rem;
+    position: relative;
+}
+#order-bottom-bd{
+    width: 4.4rem;
+    height: 0.45rem;
+    position: absolute;
+    top: 0.625rem;
+    left: 1.54rem;
+    display: flex;
+    justify-content: space-between;
+}
+.order-bottom-bd1{
+     width:1.82rem ;
+     height: 0.45rem;
+     background: #ff296f;
+     border-radius: 0.2rem;
+ }
+.order-bottom-bd1 p{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.45rem;
+}
+#order-top-bd-img{
+    width: 1.04rem;
+    height: 1.16rem;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.12rem;
+}
+#order-top-bd-img img{
+    width: 100%;
+    height: 100%;
+}
+#order-top-bd1{
+    width: 0.7rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.32rem;
+    left: 1.76rem;
+}
+#order-top-bd1 p{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: left;
+    line-height: 0.25rem;
+    color: #000000;
+}
+#order-top-bd2{
+    width: 0.7rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 1.76rem;
+}
+#order-top-bd2 p{
+    font-size: 0.2rem;
+    font-weight: normal;
+    text-align: left;
+    line-height: 0.25rem;
+    font-stretch: normal;
+    color: #ff296f;
+}
+#order-top-bd3{
+    width: 1.5rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.32rem;
+    left:3.5rem;
+}
+#order-top-bd3 p{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: left;
+    line-height: 0.25rem;
+    letter-spacing: 0px;
+    color: #000000;
+}
+#order-top-bd4{
+    width: 1.9rem;
+    height: 0.25rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 3.5rem;
+}
+#order-top-bd4 p{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: left;
+    line-height: 0.25rem;
+    letter-spacing: 0px;
+    color: #000000;
+}
+#order-top-bd5{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.37rem;
+}
+#order-top-bd5 img{
+    width: 100%;
+    height: 100%;
+}
+/*订单*/
+/*热门推荐*/
+#hot{
+    width: 7.5rem;
+    height: 1rem;
+    background: #eeeeee;
+
+}
+#hot-box{
+    width: 3rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    padding-top: 0.2rem;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+#hot-box1{
+    width: 100%;
+    height: 0.35rem;
+}
+#hot-box1 p{
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.35rem;
+    letter-spacing: 0.02rem;
+    background-image: linear-gradient(to right, blue ,green);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+#hot-box2 p{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.25rem;
+    letter-spacing: 0.02rem;
+    background-image: linear-gradient(to right, blue , green);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+#hot-box2{
+    width: 100%;
+    height: 0.25rem;
+}
+/*热门推荐*/
+/*推荐商品*/
+#shop{
+    width: 7.5rem;
+    height: 7.15rem;
+    background: #eeeeee;
+}
+.tuiJian-bd{
+    width: 7.02rem;
+    height: 1.55rem;
+    background: white;
+    margin: 0 auto 0.24rem;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.tuiJian-bd-left{
+    width: 1.42rem;
+    height: 1.05rem;
+    position: absolute;
+    left: 0.12rem;
+    top: 0.27rem;
+    border-radius: 0.1rem;
+}
+.tuiJian-bd-left img{
+    width: 100%;
+    height: 100%;
+}
+.tuiJian-bd-1{
+    width: 4.79rem;
+    height: 0.27rem;
+    position: absolute;
+    top: 0.13rem;
+    left: 1.73rem;
+}
+.tuiJian-bd-1 p{
+    width: 1.38rem;
+    height: 0.27rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.25rem;
+    font-weight: 500;
+    float: left;
+}
+.tuiJian-bd-1 div{
+    width: 1.65rem;
+    height: 0.27rem;
+    float: right;
+}
+.tuiJian-bd-1 div img{
+    width: 0.24rem;
+    height: 0.24rem;
+    float: left;
+    margin-right: 0.06rem;
+}
+.tuiJian-bd-2{
+    width: 3.1rem;
+    height: 0.27rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 1.73rem;
+}
+.tuiJian-bd-2 p{
+    width: 100%;
+    height: 100%;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.66;
+    text-align: center;
+    line-height: 100%;
+}
+.tuiJian-bd-3{
+    width: 3.2rem;
+    height: 0.27rem;
+    position: absolute;
+    top: 0.9rem;
+    left: 1.77rem;
+}
+.tuiJian-bd-3 p{
+    width: 0.74rem;
+    height: 0.17rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.17rem;
+    float: left;
+    color: #ffac00;
+}
+.tuiJian-bd-3 span{
+    width: 2rem;
+    height: 0.17rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.17rem;
+    float: right;
+    color: #ff296f;
+}
+.tuiJian-bd-4{
+    width: 3.9rem;
+    height: 0.27rem;
+    position: absolute;
+    top: 1.17rem;
+    left: 1.63rem;
+}
+.tuiJian-bd-4 section{
+    width: 1.3rem;
+    height: 0.25rem;
+    float: left;
+    font-size: 0.12rem;
+    text-align: center;
+}
+.tuiJian-bd-right{
+    width: 0.58rem ;
+    height: 0.58rem;
+    position: absolute;
+    top: 0.57rem;
+    right: 0.66rem;
+}
+.tuiJian-bd-right img{
+    width: 100%;
+    height: 100%;
+}
+/*推荐商品*/
